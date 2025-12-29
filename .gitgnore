@@ -1,0 +1,66 @@
+# =========================
+# Go build artifacts
+# =========================
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.out
+*.bin
+*.test
+
+# =========================
+# Go build directories
+# =========================
+/build/
+/dist/
+/out/
+/tmp/
+
+# =========================
+# Go workspace (Go 1.18+)
+# =========================
+go.work
+go.work.sum
+
+# =========================
+# Dependency directories
+# =========================
+# Ignore vendor unless explicitly required
+vendor/
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Test & coverage files
+# =========================
+coverage.out
+coverage.html
+*.prof
+
+# =========================
+# Editor & IDE files
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
